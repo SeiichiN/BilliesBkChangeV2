@@ -30,7 +30,7 @@ Source
 
 This code is based on following code.
 
-jQuery.BgSwitcher (https://github.com/rewish/jquery-bgswitcher)
+[jQuery.BgSwitcher](https://github.com/rewish/jquery-bgswitcher)
 
 
 License
