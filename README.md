@@ -25,7 +25,15 @@ speed -- feed speed.
 
 times -- interval times.
 
+Source
+----------------------------
+
+This code is based on following code.
+
+jQuery.BgSwitcher (https://github.com/rewish/jquery-bgswitcher)
+
+
 License
 ----------------------------
 
-The [MIT License](), Copyright (c) 2018 [@SeiichiN](https://github.com/SeiichiN).
+The [MIT License](https://github.com/SeiichiN/BilliesBkChangeV2/blob/master/LICENSE.txt), Copyright (c) 2018 [@SeiichiN](https://github.com/SeiichiN).
