@@ -2,9 +2,17 @@
  * BilliesBkchangeV2
  *
  * @version 2.0
- * @author  Seiichi Nukayama
+ * @author  Seiichi Nukayama <billie175@gmail.com>
  * @license MIT License
- * @link    https://github.com/SeiichiN/
+ *          (English) https://opensource.org/licenses/mit-license.php
+ *          (Japanese) https://ja.osdn.net/projects/opensource/wiki/licenses%2FMIT_license
+ * @link    https://github.com/SeiichiN/BilliesBkChangeV2
+ *
+ * This code is based on the following code.
+ *
+ * jQuery.BgSwitcher -- version 0.4.3
+ * @author  rewish <rewish.org@gmail.com>
+ * @link    https://github.com/rewish/jquery-bgswitcher
  */
 ;(function($) {
     'use strict';
