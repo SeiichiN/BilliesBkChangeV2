@@ -24,8 +24,9 @@
 
     // jQueryプラグイン bgchanger の定義
     $.fn.bgchanger = function() {
-        var args = arguments;
-
+        var img = { images: arguments[0] };
+        var args = $.extend({}, img, arguments[1]);
+        
         return this.each(function() {
 
             var instance = new BgChanger(this);
@@ -74,7 +75,7 @@
          * Refresh
          */
         refresh: function() {
-            this.setImages(this.options[0].images);
+            this.setImages(this.options.images);
             this._prepareChanging();
         },
 
@@ -83,8 +84,7 @@
          */
         start: function() {
             if (!this._timerID) {
-                // this._timerID = setInterval($.proxy(this, 'next'), this.options[0].times); 
-                this._timerID = setTimeout($.proxy(this, 'next'), this.options[0].times); 
+                this._timerID = setTimeout($.proxy(this, 'next'), this.options.times); 
             }
         },
 
@@ -145,7 +145,7 @@
             },
 
                 // animateの持続時間
-                duration = this.options[0].speed,
+                duration = this.options.speed,
 
                 // アニメーション終了時の処理
                 callback = function() {
