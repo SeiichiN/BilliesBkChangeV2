@@ -6,16 +6,21 @@ This code is changing of background image with feed.
 Usage
 ----------------------------
 
+### HTML
 ```html
 <div id="bkimage">
   <p>Lorem ipsum dolor sit amet.</p>
 </div>
 ```
-
+### JavaScript
 ```js
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="billiesBkchangeV2.js"></script>
+<script>
 var image = ['img01.jpg', 'img02.jpg', 'img03.jpg'];
 var options = {speed: 3000, times: 5000};
 jQuery('#bkimage').bgchanger(images, options);
+</script>
 ```
 
 Options
